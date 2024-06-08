@@ -1,0 +1,31 @@
+#root {
+  min-height: 100vh;
+}
+
+.navbar-brand img {
+  filter: invert(1);
+}
+
+.navbar-dark-custom {
+  background-color: #59595a;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.pokemon-card {
+  width: 40rem;
+  margin: auto;
+}
+.pokemon-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pokemon-image {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
